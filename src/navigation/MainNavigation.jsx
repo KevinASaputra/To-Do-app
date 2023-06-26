@@ -3,6 +3,7 @@ import { HomeScreen } from "../screens/HomeScreen";
 import { useColorScheme } from "react-native";
 import { colors } from "../theme/colors";
 import { CreateScreen } from "../screens/CreateScreen";
+import { EditScreen } from "../screens/EditScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -31,6 +32,16 @@ export const MainNavigation = () => {
         }}
         component={CreateScreen}
         name="Create"
+      />
+      <Stack.Screen
+        options={{
+          headerShown: false,
+          statusBarStyle: darkTheme ? "light" : "dark",
+          statusBarColor: darkTheme ? colors.black : colors.white,
+          statusBarTranslucent: true,
+        }}
+        component={EditScreen}
+        name="Edit"
       />
     </Stack.Navigator>
   );

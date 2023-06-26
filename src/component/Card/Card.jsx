@@ -2,13 +2,15 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { colors } from "../../theme/colors";
 import { Image } from "react-native-svg";
 import { EditIcon } from "../Icons";
+import { useLinkTo } from "@react-navigation/native";
 
 export const Card = ({ title, description }) => {
+  const linkTo = useLinkTo();
   return (
     <View style={styles.container}>
       <View style={styles.wrapper}>
         <Text style={styles.title}>{title}</Text>
-        <TouchableOpacity style={styles.icon}>
+        <TouchableOpacity style={styles.icon} onPress={() => linkTo("/Edit")}>
           <EditIcon />
         </TouchableOpacity>
       </View>
