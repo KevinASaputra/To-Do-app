@@ -26,7 +26,10 @@ export const Header = () => {
             <PlusIcon />
           </TouchableOpacity>
         </View>
-        <TouchableOpacity style={styles.avatar}>
+        <TouchableOpacity
+          style={styles.avatar}
+          onPress={() => linkTo("/Profile")}
+        >
           <Image source={images.avatar} style={styles.image} />
         </TouchableOpacity>
       </View>
