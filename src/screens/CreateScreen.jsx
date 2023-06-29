@@ -38,11 +38,11 @@ export const CreateScreen = () => {
             />
           </View>
         </View>
-        <View style={styles.containerButton}>
-          <TouchableOpacity style={styles.button}>
-            <Text style={styles.textButton}>Create new to-do</Text>
-          </TouchableOpacity>
-        </View>
+      </View>
+      <View style={styles.containerButton}>
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.textButton}>Create new to-do</Text>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
@@ -130,7 +130,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   containerButton: {
-    marginVertical: 336,
     alignItems: "center",
   },
   button: {
