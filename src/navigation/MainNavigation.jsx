@@ -48,7 +48,7 @@ export const MainNavigation = () => {
         options={{
           headerShown: false,
           statusBarStyle: darkTheme ? "light" : "dark",
-          statusBarColor: darkTheme ? colors.black : colors.white,
+          statusBarColor: darkTheme ? colors.black : colors.rown,
           statusBarTranslucent: true,
         }}
         component={ProfileScreen}
