@@ -16,4 +16,5 @@ export const colors = {
   white: "#FFFFFF",
   darkStroke: "#27252D",
   card: "#F6F7F8",
+  rown: "#F4F8FB",
 };
