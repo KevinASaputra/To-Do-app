@@ -11,9 +11,7 @@ export const ProfileScreen = () => {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
-        <Text style={styles.title} onPress={() => navigation.goBack()}>
-          Profile
-        </Text>
+        <Text style={styles.title}>Profile</Text>
         <View style={styles.wrapper}>
           <View style={styles.icon}>
             <Image source={images.profile} style={styles.image} />
