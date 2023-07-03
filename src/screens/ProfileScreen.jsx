@@ -21,7 +21,7 @@ export const ProfileScreen = () => {
             <Text style={styles.gmailName}>kevinsaputra@gmail.com</Text>
           </View>
           <View>
-            <EditIcon />
+            <EditIcon onPress={() => navigation.goBack()} />
           </View>
         </View>
       </View>
