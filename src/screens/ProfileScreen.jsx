@@ -22,6 +22,7 @@ export const ProfileScreen = () => {
           </View>
           <View>
             <EditIcon onPress={() => navigation.goBack()} />
+            <EditIcon onPress={() => navigation.goBack()} />
           </View>
         </View>
       </View>
