@@ -18,3 +18,4 @@ export const colors = {
   card: "#F6F7F8",
   rown: "#F4F8FB",
 };
+
