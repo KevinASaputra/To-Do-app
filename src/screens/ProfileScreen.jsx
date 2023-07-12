@@ -22,7 +22,6 @@ export const ProfileScreen = () => {
           </View>
           <View>
             <EditIcon onPress={() => navigation.goBack()} />
-            <EditIcon onPress={() => navigation.goBack()} />
           </View>
         </View>
       </View>
@@ -104,7 +103,6 @@ const styles = StyleSheet.create({
     width: 335,
     height: 210,
     flexShrink: 0,
-    backgroundColor: colors.green,
   },
   cardHistory: {
     width: 375,
