@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
     fontWeight: 600,
     lineHeight: 36,
     letterSpacing: -0.3,
+    color: colors.white
   },
   description: {
     color: colors.grey,
