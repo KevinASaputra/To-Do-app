@@ -5,9 +5,12 @@ import { BackIcon, MenuIcon } from "../component/Icons";
 import { TextInput } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { colors } from "../theme/colors";
+import { useState } from "react";
 
 export const CreateScreen = () => {
   const navigation = useNavigation();
+
+  const [addItem, setAddItem] = useState();
 
   return (
     <SafeAreaView style={styles.safeAreaView}>
@@ -83,7 +86,7 @@ const styles = StyleSheet.create({
     fontWeight: 600,
     lineHeight: 36,
     letterSpacing: -0.3,
-    color: colors.white
+    color: colors.white,
   },
   description: {
     color: colors.grey,
