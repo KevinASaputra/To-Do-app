@@ -10,7 +10,7 @@ import { useState } from "react";
 export const CreateScreen = () => {
   const navigation = useNavigation();
 
-  const [addItem, setAddItem] = useState();
+  
 
   return (
     <SafeAreaView style={styles.safeAreaView}>
